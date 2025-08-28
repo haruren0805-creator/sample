@@ -132,6 +132,34 @@ h3 {
     font-size: 1.2rem;
     margin-top: 15px;
 }
+/* PDFダウンロードリンクのスタイル */
+.pdf-link-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pdf-link-container h3 {
+    text-align: center;
+    border-left: none;
+    padding-left: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pdf-link {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #e74c3c; /* 赤系の色で目立たせる */
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pdf-link:hover {
+    background: #c0392b;
+}
 
 /* フッター */
 footer {
