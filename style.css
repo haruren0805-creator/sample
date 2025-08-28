@@ -81,7 +81,7 @@ h3 {
 
 /* ヒーローセクション */
 .hero {
-    background: url('https://th.bing.com/th/id/R.b35f1b24b6be7e5c9bf48afcdf0f28e7?rik=89hBH%2buw8jTQxg&riu=http%3a%2f%2ftmyun.com%2fjpeg%2fyun_6655.jpg&ehk=dlFt1Z9I8g30C7cxjIslS4kSHQZR%2bbpcfuS460ob4QY%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+    background-color: #34495e; /* 単色の背景色に変更 */
     height: 500px;
     color: #fff;
     display: flex;
@@ -90,7 +90,6 @@ h3 {
     text-align: center;
     position: relative;
 }
-
 .hero::after {
     content: '';
     position: absolute;
